@@ -11,8 +11,8 @@
     {{-- header --}}
     @include('partials.header')
     {{-- main --}}
-    {{-- @include('partials.main') --}}
+    @include('partials.main')
     {{-- footer --}}
-    {{-- @include('partials.footer') --}}
+    @include('partials.footer')
 </body>
 </html>

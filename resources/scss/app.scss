@@ -1,5 +1,59 @@
 /*resources/scss/app.scss*/
 @import "bootstrap/scss/bootstrap";
-body {
-    background-color: rgb(255, 255, 255);
+body{
+    background-color: rgb(100, 100, 100);
+}
+
+.team-titan-img{
+    background-image: url('../img/jumbotron.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+}
+
+.btn-blue{
+    background-color: #0282f9;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 150px;
+}
+
+.btn-footer{
+    border: 3px solid #0282f9;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 150px;
+}
+
+
+.serie{
+    border: 1px solid black;
+}
+
+.footer-img{
+    background-image: url('../img/footer-bg.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+main{
+    li{
+        color: #949595;
+    }
+}
+
+h4{
+    color: white;
+    padding: 5px 0;
 }
