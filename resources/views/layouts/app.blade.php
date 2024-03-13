@@ -8,11 +8,11 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    <!-- header -->
+    {{-- header --}}
     @include('partials.header')
-    <!-- main -->
-    @include('partials.main')
-    <!-- footer -->
-    @include('partials.footer')
+    {{-- main --}}
+    {{-- @include('partials.main') --}}
+    {{-- footer --}}
+    {{-- @include('partials.footer') --}}
 </body>
 </html>
