@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<!-- scriviamo la cartella e il file che vogliamo prendere -->
+@extends('layouts.app')
 
-    @vite('resources/js/app.js')
-</head>
-<body>
-    <h1 class="text-danger">Ciao Mondo!</h1>
-</body>
-</html>
+<!-- il questo caso, per il titolo in HTML dobbiamo scrivere @yield('title'), DC Comics è il nome della pagina -->
+@section('title', 'DC Comics')
