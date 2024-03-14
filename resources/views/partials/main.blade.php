@@ -1,4 +1,4 @@
-<header class="bg-warning">
+<header class="bg-dark">
     <div class="container">
         <div class="position-relative">
             <button class="btn-blue position-absolute" style="top: -27px;">current series</button>
@@ -7,9 +7,9 @@
         <div class="pt-5">
             <div class="row">
                 @foreach($comics as $element)
-                    <div class="serie col-2 bg-danger">
+                    <div class="serie col-2">
                         <figure class="m-0">
-                            <img src="{{ $element['thumb'] }}" width="100" alt="img">
+                            <img src="{{ $element['thumb'] }}" alt="img">
                         </figure>
                         <p>{{ $element['title'] }}</p>
                     </div>
@@ -21,6 +21,15 @@
             <button class="btn-blue">load more</button>
         </div>
 
-
     </div>
 </header>
+
+
+<style>
+    .serie{
+        img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+</style>

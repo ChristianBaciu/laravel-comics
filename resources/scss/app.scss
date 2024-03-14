@@ -1,7 +1,7 @@
 /*resources/scss/app.scss*/
 @import "bootstrap/scss/bootstrap";
 body{
-    background-color: rgb(100, 100, 100);
+    background-color: #303030;
 }
 
 .team-titan-img{
@@ -12,25 +12,23 @@ body{
     height: 325px;
 }
 
-.btn-blue{
-    background-color: #0282f9;
-    color: white;
+.btn-blue,
+.btn-footer{
     font-size: 20px;
     padding: 10px;
-    width: 150px;
+    width: 200px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-blue{
+    background-color: #0282f9;
+    border: 0px;
 }
 
 .btn-footer{
+    background-color: #ffffff00;
     border: 3px solid #0282f9;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    width: 150px;
-}
-
-
-.serie{
-    border: 1px solid black;
 }
 
 .footer-img{
@@ -45,12 +43,6 @@ body{
 
 li{
     list-style-type: none;
-}
-
-main{
-    li{
-        color: #949595;
-    }
 }
 
 h4{

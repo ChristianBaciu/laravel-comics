@@ -1,11 +1,11 @@
-<header class="bg-warning">
-    <div class="container bg-danger d-flex justify-content-between py-3">
+<header>
+    <div class="container d-flex justify-content-between py-3">
 
         <figure class="m-0">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
         </figure>
     
-        <ul class="bg-primary d-flex gap-5 align-items-center text-uppercase fw-bold m-0">
+        <ul class="d-flex gap-5 align-items-center text-uppercase fw-bold m-0">
             <li>character</li>
             <li>comics</li>
             <li>movies</li>
@@ -24,3 +24,15 @@
     {{-- app.scss
     background-image: url('../img/jumbotron.jpg'); --}}
 </div>
+
+
+<style>
+    header{
+        background-color: white;
+    }
+    ul{
+        li{
+            color: #383a3a;
+        }
+    }
+</style>
